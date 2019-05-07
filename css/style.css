@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    height: 30px;
+    background-color: white;
+    border-bottom: silver 1px solid;
+    position: fixed;
+}
+
+.navbar > div {
+    display: block;
+}
+
+.left {
+    float:left;
+}
+.middle {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.right {
+    float: right;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+.container p, .container h2 {
+    margin: 20px auto;
+    width: 60%;
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-size: 19px;
+    font-stretch: 100%;
+    line-height: 29px;
+}
+
+.container .advert {
+    height: 300px;
+    background-color: rgb(247, 247, 247);;
+    margin: 50px -13%;
+}
+
+h1  {
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-size: 100%;
+    text-size-adjust: 100%;
+    display: block;
+    width: 383.777px;
+    max-width: 383.777px;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin: 0 auto;
+}

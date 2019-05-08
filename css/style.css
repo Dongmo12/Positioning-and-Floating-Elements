@@ -203,6 +203,12 @@ h3{
     margin: 50px -20%;
 }
 
+.container .advert img {
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
 h1  {
     font-family: nyt-imperial, georgia, "times new roman", times, serif;
     font-size: 100%;

@@ -108,7 +108,7 @@ h3{
     margin: 5px 10px;
 }
 .article-picture {
-    width: 80%;
+    width: 100%;
 }
 .button {
     border-radius: 3px;
@@ -200,7 +200,7 @@ h3{
 .container .advert {
     height: 300px;
     background-color: rgb(247, 247, 247);;
-    margin: 50px -13%;
+    margin: 50px -20%;
 }
 
 h1  {
@@ -212,5 +212,5 @@ h1  {
     max-width: 383.777px;
     font-size: 2.5rem;
     font-style: italic;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
 }

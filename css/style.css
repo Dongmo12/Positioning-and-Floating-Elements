@@ -79,6 +79,8 @@ h3{
     background-color: white;
     border-bottom: silver 1px solid;
     position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar > div {

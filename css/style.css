@@ -91,6 +91,22 @@ h3{
     float:left;
     margin: 5px;
 }
+.left .icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 5px 10px;
+}
+.section-title {
+    font-size: 14.25px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+    float: right;
+    margin: 5px 10px;
+}
 .button {
     border-radius: 3px;
     cursor: pointer;

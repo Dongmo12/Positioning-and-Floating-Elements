@@ -303,4 +303,45 @@ figcaption span {
 }
 a:hover {
     text-decoration: underline;
-  }
+}
+.container figure img {
+    width: 100%;
+}
+.theory-of-inflation {
+    height: 545px;
+    background-image: url('../images/inflation-720.png');
+    width: 100% !important;
+    max-width: 745px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.theory-of-inflation .inflation-item {
+    width: 145px;
+    height: 175px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.inflation-content {
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.inflation-content span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.theory-of-inflation-caption {
+    margin: 20px auto;
+    width: 60%;
+}

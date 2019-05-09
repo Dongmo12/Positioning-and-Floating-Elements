@@ -294,3 +294,6 @@ figcaption {
 figcaption span {
     display: block;
 }
+a:hover {
+    text-decoration: underline;
+  }

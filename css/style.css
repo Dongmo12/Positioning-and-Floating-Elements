@@ -137,6 +137,7 @@ h3{
     padding: 8px 9px 6px;
     text-transform: uppercase;
 }
+ 
 .line{
     content: "";
     display: block;
@@ -168,6 +169,7 @@ h3{
     height: 25px;
     line-height: 15px;
     padding-bottom: 0px;
+    
 }
 .list-item-2{
     color: rgb(0, 0, 0);
@@ -180,6 +182,10 @@ h3{
     height: 23px;
     line-height: 21px;
     text-decoration: none;
+}
+.list-item-link{
+    text-decoration: none;
+     
 }
 .middle {
     width: 195px;

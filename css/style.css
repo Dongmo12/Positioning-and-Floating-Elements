@@ -137,7 +137,12 @@ h3{
     padding: 8px 9px 6px;
     text-transform: uppercase;
 }
- 
+.header-logo{
+    display: block;
+    height: 44px;
+    vertical-align: middle;
+    width: 184px;
+}
 .line{
     content: "";
     display: block;
@@ -184,7 +189,9 @@ h3{
     text-decoration: none;
 }
 .list-item-link{
-    text-decoration: none;
+    text-decoration:  none;
+    color: black;
+    cursor: pointer;   
      
 }
 .middle {

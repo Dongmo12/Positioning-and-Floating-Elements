@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 .bottom-nav{
     text-align:left;
     width: 95%;
@@ -226,4 +227,52 @@ h1  {
     font-size: 2.5rem;
     font-style: italic;
     margin: 0 auto 30px auto;
+}
+.aside {
+    float: right;
+    width: 150px;
+    margin-right: -84px;
+    width: 210px;
+}
+.aside h2 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+.aside p {
+    width: 100%;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+}
+.aside button {
+    color: rgb(255, 255, 255);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 35px;
+    background: rgb(98, 136, 165);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(98, 136, 165);
+    border-image: initial;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0px;
 }

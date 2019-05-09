@@ -189,11 +189,16 @@ h3{
     text-decoration: none;
 }
 .list-item-link{
-    text-decoration:  none;
+    
     color: black;
-    cursor: pointer;   
+    cursor: pointer; 
+    text-decoration: none;  
      
 }
+a:hover {
+    
+    text-decoration: underline;
+  }
 .middle {
     width: 195px;
     height: 26px;

@@ -51,20 +51,20 @@ body {
 }  
 .nav-li a {
     color: rgb(153, 153, 153);
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
     white-space: nowrap;
     padding: 10px 0px;
+    font: 11px nyt-franklin, helvetica, arial, sans-serif;
+}
+
+a {
     text-decoration: none;
-    font-size: 11px;
 }
     
 
 h3{
     
     color: rgb(51, 51, 51);
-    font-size: 14px;
-    font-weight: 700;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font: 700 14px nyt-franklin, helvetica, arial, sans-serif;
     height: 25px;
     line-height: 15px;
     text-transform: uppercase;
@@ -106,9 +106,7 @@ h3{
     margin: 5px 10px;
 }
 .section-title {
-    font-size: 14.25px;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-weight: 700;
+    font: 700 14.25px nyt-franklin, helvetica, arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.7px;
     line-height: 19px;
@@ -154,11 +152,9 @@ h3{
 .list-item{
     color:rgb(0, 0, 0);;
     display: inline-block;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
     text-transform: capitalize;
     width: 150px;
-    font-size: 14px;
-    font-weight: 500;
+    font: 500 14px nyt-franklin, helvetica, arial, sans-serif;
     height: 23px;
     line-height: 16px;
     text-decoration: none;
@@ -217,8 +213,7 @@ a:hover {
 .container p, .container h2, .container figure {
     margin: 20px auto;
     width: 60%;
-    font-family: nyt-imperial, georgia, "times new roman", times, serif;
-    font-size: 19px;
+    font: 19px nyt-imperial, georgia, "times new roman", times, serif;
     font-stretch: 100%;
     line-height: 29px;
 }
@@ -236,43 +231,29 @@ a:hover {
 }
 
 h1  {
-    font-family: nyt-imperial, georgia, "times new roman", times, serif;
-    font-size: 100%;
+    font: 2.5rem nyt-imperial, georgia, "times new roman", times, serif;
     text-size-adjust: 100%;
     display: block;
     width: 383.777px;
     max-width: 383.777px;
-    font-size: 2.5rem;
     font-style: italic;
     margin: 0 auto 30px auto;
 }
 .aside {
     float: right;
-    width: 150px;
     margin-right: -84px;
     width: 210px;
 }
 .aside h2 {
-    font-size: 1.125rem;
     line-height: 1.5rem;
     color: rgb(0, 0, 0);
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 0.875rem;
-    line-height: 1.125rem;
+    font: normal 700 1.125rem/1.125rem nyt-franklin, helvetica, arial, sans-serif;
     margin-bottom: 5px;
     width: 100%;
-    font-size: 1.125rem;
-    line-height: 1.5rem;
 }
 .aside p {
     width: 100%;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.8125rem;
-    line-height: 1rem;
+    font-family: normal 500 0.8125rem/1rem nyt-franklin, helvetica, arial, sans-serif;
     color: rgb(102, 102, 102);
 }
 .aside button {

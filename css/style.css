@@ -12,11 +12,11 @@ body {
     width: 100%;
     margin: 0 auto;
     height: 410px;
-   
     display: -webkit-flex;  
     -webkit-flex-direction: row-reverse; 
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .bottom-nav-content section{
     text-size-adjust: 100%;
@@ -221,7 +221,7 @@ a:hover {
 .container .advert {
     height: 300px;
     background-color: rgb(247, 247, 247);;
-    margin: 50px -20%;
+    margin: 50px -12%;
 }
 
 .container .advert img {
@@ -253,7 +253,7 @@ h1  {
 }
 .aside p {
     width: 100%;
-    font-family: normal 500 0.8125rem/1rem nyt-franklin, helvetica, arial, sans-serif;
+    font: normal 500 0.8125rem/1rem nyt-franklin, helvetica, arial, sans-serif;
     color: rgb(102, 102, 102);
 }
 .aside button {

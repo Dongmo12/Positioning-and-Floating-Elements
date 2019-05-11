@@ -45,14 +45,14 @@ body {
     color: rgb(153, 153, 153);
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     white-space: nowrap;
-    padding: 10px 0px;
+    padding: 10px 0;
     text-decoration: none;
     list-style: none;
 }  
 .nav-li a {
     color: rgb(153, 153, 153);
     white-space: nowrap;
-    padding: 10px 0px;
+    padding: 10px 0;
     font: 11px nyt-franklin, helvetica, arial, sans-serif;
 }
 
@@ -308,8 +308,8 @@ a:hover {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 .inflation-content span {
     font-weight: bold;
